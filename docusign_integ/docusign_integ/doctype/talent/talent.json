@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-02 02:35:28.876029",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "onboarding_task_tab",
+  "onboarding_task_section",
+  "onboarding_packets",
+  "e_signature_documents",
+  "job_applicant",
+  "send"
+ ],
+ "fields": [
+  {
+   "fieldname": "onboarding_task_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "onboarding_packets",
+   "fieldtype": "Select",
+   "label": "Onboarding Packets"
+  },
+  {
+   "fieldname": "e_signature_documents",
+   "fieldtype": "Select",
+   "label": "E Signature Documents"
+  },
+  {
+   "fieldname": "onboarding_task_tab",
+   "fieldtype": "Tab Break",
+   "label": "Onboarding Task"
+  },
+  {
+   "fieldname": "job_applicant",
+   "fieldtype": "Link",
+   "label": "Job Applicant",
+   "options": "Job Applicant"
+  },
+  {
+   "bold": 1,
+   "fieldname": "send",
+   "fieldtype": "Button",
+   "label": "Send"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-03 01:47:00.565493",
+ "modified_by": "Administrator",
+ "module": "docusign_integ",
+ "name": "Talent",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

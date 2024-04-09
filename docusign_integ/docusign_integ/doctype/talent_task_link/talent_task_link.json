@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {task_name}-{##}",
+ "creation": "2024-04-02 22:27:55.780131",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "task_name",
+  "url",
+  "start"
+ ],
+ "fields": [
+  {
+   "fieldname": "task_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Task Name",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "start",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "START"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "URL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-03 06:51:53.919121",
+ "modified_by": "Administrator",
+ "module": "docusign_integ",
+ "name": "Talent Task Link",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
